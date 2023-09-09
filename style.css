@@ -1,9 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0%;
     padding: 0;
-   /* align-items: center; */
 }
 
 .header {
@@ -21,8 +18,86 @@ ul {
     align-items: center;
     gap: 16px;
 }
+
 a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
 }
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.image {
+    justify-content: center;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 0 8px;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.content {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info-title {
+    margin-top: 16px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100px;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    
+}
+
