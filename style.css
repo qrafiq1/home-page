@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0;
+   /* align-items: center; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 16px;
+}
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+}
